@@ -1,0 +1,6 @@
+main.code-workspace
+
+tests/archived/
+archived/
+src/connector/__pycache__/
+venv/
