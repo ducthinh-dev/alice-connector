@@ -4,13 +4,15 @@ build-backend = "hatchling.build"
 
 [project]
 name = "alice-connector"
-version = "0.0.1"
+version = "0.0.2"
 authors = [{ name = "Thinh Do Duc", email = "dothinh.dev@gmail.com" }]
 maintainers = [{ name = "Thinh Do Duc", email = "dothinh.dev@gmail.com" }]
 description = "A SQL connector developed by alice"
 readme = "README.md"
 requires-python = ">=3.11.8"
 dependencies = [
+  "mysql_connector_repackaged==0.3.1",
+  "python-dotenv==1.0.1"
 ]
 classifiers = [
   "Programming Language :: Python :: 3",
